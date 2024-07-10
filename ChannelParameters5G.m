@@ -1,7 +1,7 @@
 % Select the NR-TM waveform parameters
 nrtm = "NR-FR1-TM3.1";  % NR-TM name and properties
-bw   = "5MHz";  % Channel bandwidth
-scs  = "30kHz";  % Subcarrier spacing
+bw   = "100MHz";  % Channel bandwidth
+scs  = "15kHz";  % Subcarrier spacing
 dm   = "TDD";  % Duplexing mode
 tmWaveGen = hNRReferenceWaveformGenerator(nrtm,bw,scs,dm);
 tmWaveGen = makeConfigWritable(tmWaveGen);
